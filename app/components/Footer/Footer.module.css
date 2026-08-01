@@ -1,0 +1,22 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1f1f1f;
+    color: #f1f1f1;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.footer_logo{
+    width: 70px;
+}
+@media(min-width: 600px){
+    .footer_logo{
+        width: 100px;
+    }
+}
+
+.footer_description{
+    font-size: clamp(0.8rem, 2vw, 1.2rem);
+}

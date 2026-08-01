@@ -1,0 +1,119 @@
+@media(min-width: 900px){
+    .response{
+        display: flex;
+    }
+}
+
+.img{
+    width: 100%;
+}
+@media (min-width: 900px){
+    .img{
+        width: 30vw;
+    }
+}
+
+.layout{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 2px;
+    border: 1px solid rgb(2, 19, 168);
+    border-radius: 8px;
+}
+
+.layout__title{
+    border: 1px solid rgb(2, 19, 168);
+    border-radius: 8px;
+    padding: 5px;
+    font-family: Georgia;
+    font-weight: 600;
+    font-size: clamp(1.2rem,2vw,1.8rem);
+    color: #1f1f1f;
+    text-align: center;
+}
+
+.layout__history{
+    background-color: white;
+    padding: 10px;
+    border: 1px solid rgb(2, 19, 168);
+    border-radius: 8px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    color: #1f1f1f;
+}
+
+.history_title{
+    font-size: clamp(1.2rem,2vw,1.8rem);
+}
+
+.history_description{
+    text-align: justify;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px #1f1f1f;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.layout_turistic_title{
+    font-size: clamp(1.2rem,2vw,1.8rem);
+    margin: 10px;
+}
+
+.turistic_card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    align-items: center;
+    padding: 5px;
+    
+}
+
+.turistic_card_layout{
+    justify-items: center;
+    border: 1px solid rgb(2, 19, 168);
+    border-radius: 8px;
+    margin: 5px;
+    padding: 5px;
+}
+@media(min-width: 400px){
+    .turistic_card{
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+}
+
+
+.turistic_image{
+    border-radius: 8px;
+}
+
+.turistic_description{
+    box-shadow: 0px 0px 5px rgb(41, 212, 255);
+    color: #1f1f1f;
+    border: 1px solid rgb(2, 19, 168);
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    font-size: clamp(1rem,2vw,1.5rem);
+    font-weight: 600;
+    text-align: center;
+}
+
+.layout_price{
+    background: linear-gradient(to right, rgb(0, 17, 167),rgb(0, 22, 220), rgb(0, 91, 236));
+    border-radius: 8px 0px;
+    color: white;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    font-weight: 600;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+@media(min-width: 600px){
+    .layout_price{
+        width: 30%;
+    }
+}
