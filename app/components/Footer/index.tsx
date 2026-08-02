@@ -9,7 +9,7 @@ const Footer = () => {
                 >
                     <img 
                     className={styles.footer_logo}
-                    src="/image/logo.png" 
+                    src="/Portal-Viagens/image/logo.png" 
                     alt="Logo"/>
                 </Link>
             <p className={styles.footer_description}> - Todos os direitos reservados.</p>

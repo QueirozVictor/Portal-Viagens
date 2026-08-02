@@ -10,7 +10,7 @@ const Header = () =>{
                 >
                     <img
                     className={styles.header_logo}
-                    src="/image/logo.png" 
+                    src="/Portal-Viagens/image/logo.png" 
                     alt="Logo"/>
                 </Link>
             </div>

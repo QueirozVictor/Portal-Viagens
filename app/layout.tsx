@@ -5,7 +5,7 @@ import Footer from "./components/Footer"
 
 
 export const metadata: Metadata = {
-  title: "E F A Viagens",
+  title: "SkyTrip Viagens",
   description: "Seu portal de viagens para encontrar os melhores destinos da sua proxima Trip!",
 };
 
