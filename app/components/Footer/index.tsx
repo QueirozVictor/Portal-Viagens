@@ -1,5 +1,4 @@
 import styles from './Footer.module.css'
-import Logo from "@/public/image/logo.png"
 import Link from 'next/link'
 import Image from "next/image";
 
@@ -11,7 +10,7 @@ const Footer = () => {
                 >
                     <Image 
                     className={styles.footer_logo}
-                    src={Logo} 
+                    src="/image/logo.png" 
                     alt="Logo"/>
                 </Link>
             <p className={styles.footer_description}> - Todos os direitos reservados.</p>

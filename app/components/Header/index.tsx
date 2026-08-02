@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "@/public/image/logo.png"
 import styles from "./Header.module.css"
 
 const Header = () =>{
@@ -12,7 +11,7 @@ const Header = () =>{
                 >
                     <Image 
                     className={styles.header_logo}
-                    src={Logo} 
+                    src="/image/logo.jng" 
                     alt="Logo"/>
                 </Link>
             </div>
