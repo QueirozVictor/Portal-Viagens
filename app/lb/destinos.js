@@ -5,7 +5,7 @@ export const destinos = [
         id: 1,
         title: "Disney Magic World",
         slug: "disney",
-        imagem: `/image/disney/disneyLogo.jpg`,
+        imagem: `${basePath}/image/disney/disneyLogo.jpg`,
         value: "R$ 12.000",
         destaque: false,
 
