@@ -1,11 +1,11 @@
-const basePath = "/Portal-Viagens";
+
 
 export const destinos = [
     {
         id: 1,
         title: "Disney Magic World",
         slug: "disney",
-        imagem: `${basePath}/image/disney/disneyLogo.jpg`,
+        imagem: `/image/disney/disneyLogo.jpg`,
         value: "R$ 12.000",
         destaque: false,
 
@@ -13,22 +13,22 @@ export const destinos = [
 
         pontosTuristicos: [
             {
-                image:`${basePath}/image/disney/cinderelaCastle.jpg`,
+                image:`/image/disney/cinderelaCastle.jpg`,
                 name: "Cinderella Castle",
             },
 
             {
-                image:`${basePath}/image/disney/spaceMontain.jpg`,
+                image:`/image/disney/spaceMontain.jpg`,
                 name: "Space Montain",
             },
 
             {
-                image:`${basePath}/image/disney/guardiansOfGalaxy.jpg`,
+                image:`/image/disney/guardiansOfGalaxy.jpg`,
                 name: "Guardians of Galaxy",
             },
             
             {
-                image:`${basePath}/image/disney/toyStoryLand.jpg`,
+                image:`/image/disney/toyStoryLand.jpg`,
                 name: "Toy Story Land",
             },
  
@@ -38,7 +38,7 @@ export const destinos = [
         id: 2,
         title: "Tokyo",
         slug: "tokyo",
-        imagem: `${basePath}/image/tokyo/tokyoLogo.jpg`,
+        imagem: `/image/tokyo/tokyoLogo.jpg`,
         value: "R$ 10.000",
         destaque: false,
 
@@ -46,22 +46,22 @@ export const destinos = [
 
         pontosTuristicos: [
             {
-                image:`${basePath}/image/tokyo/tokyoTower.jpg`,
+                image:`/image/tokyo/tokyoTower.jpg`,
                 name: "Tokyo Tower",
             },
 
             {
-                image:`${basePath}/image/tokyo/shibuya.jpg`,
+                image:`/image/tokyo/shibuya.jpg`,
                 name: "Shibuya",
             },
 
             {
-                image:`${basePath}/image/tokyo/sensoJi.jpg`,
+                image:`/image/tokyo/sensoJi.jpg`,
                 name: " Sensō-ji",
             },
             
             {
-                image:`${basePath}/image/tokyo/meijiShrine.jpg`,
+                image:`/image/tokyo/meijiShrine.jpg`,
                 name: "Meiji Shrine",
             },
             
@@ -75,7 +75,7 @@ export const destinos = [
         id: 3,
         title: "Londres",
         slug: "londres",
-        imagem: `${basePath}/image/londres/londresLogo.jpg`,
+        imagem: `/image/londres/londresLogo.jpg`,
         value: "R$ 11.000",
         destaque: false,
 
@@ -83,22 +83,22 @@ export const destinos = [
 
         pontosTuristicos: [
             {
-                image:`${basePath}/image/londres/bigBen.jpeg`,
+                image:`/image/londres/bigBen.jpeg`,
                 name: "Big Ben",
             },
 
             {
-                image:`${basePath}/image/londres/londonTower.jpeg`,
+                image:`/image/londres/londonTower.jpeg`,
                 name: "London Tower",
             },
 
             {
-                image:`${basePath}/image/londres/palace.jpeg`,
+                image:`/image/londres/palace.jpeg`,
                 name: "Buckingham Palace",
             },
             
             {
-                image:`${basePath}/image/londres/londonEye.jpeg`,
+                image:`/image/londres/londonEye.jpeg`,
                 name: "London Eye",
             },
         ],
@@ -109,7 +109,7 @@ export const destinos = [
         id: 4,
         title: "Paris",
         slug: "paris",
-        imagem: `${basePath}/image/paris/parisLogo.jpg`,
+        imagem: `/image/paris/parisLogo.jpg`,
         value: "R$ 13.000",
         destaque: true,
 
@@ -117,22 +117,22 @@ export const destinos = [
 
         pontosTuristicos: [
             {
-                image:`${basePath}/image/paris/arcDeTriomphe.jpg`,
+                image:`/image/paris/arcDeTriomphe.jpg`,
                 name: "Arc de Triomphe",
             },
 
             {
-                image:`${basePath}/image/paris/louvreMuseum.jpg`,
+                image:`/image/paris/louvreMuseum.jpg`,
                 name: "Louvre Museum",
             },
 
             {
-                image:`${basePath}/image/paris/eiffelTower.jpg`,
+                image:`/image/paris/eiffelTower.jpg`,
                 name: "Eiffel Tower",
             },
             
             {
-                image:`${basePath}/image/paris/notreDame.jpg`,
+                image:`/image/paris/notreDame.jpg`,
                 name: "Notre-Dame",
             }, 
         ],
@@ -142,7 +142,7 @@ export const destinos = [
         id: 5,
         title: "Singapura",
         slug: "singapura",
-        imagem: `${basePath}/image/singapura/singapuraLogo.jpg`,
+        imagem: `/image/singapura/singapuraLogo.jpg`,
         value: "R$ 9.000",
         destaque: true,
 
@@ -151,22 +151,22 @@ export const destinos = [
 
         pontosTuristicos: [
             {
-                image:`${basePath}/image/singapura/gardenBay.jpg`,
+                image:`/image/singapura/gardenBay.jpg`,
                 name: "Garden Bay",
             },
 
              {
-                image:`${basePath}/image/singapura/merlionPark.jpg`,
+                image:`/image/singapura/merlionPark.jpg`,
                 name: "Merlion Park",
             },
 
              {
-                image:`${basePath}/image/singapura/sentosa.jpg`,
+                image:`/image/singapura/sentosa.jpg`,
                 name: "Sentosa",
             },
 
              {
-                image:`${basePath}/image/singapura/marinaBaySands.jpg`,
+                image:`/image/singapura/marinaBaySands.jpg`,
                 name: "Marina Bay Sands",
             },
         
@@ -176,7 +176,7 @@ export const destinos = [
         id: 6,
         title: "Tailândia",
         slug: "tailandia",
-        imagem: `${basePath}/image/tailandia/tailand.jpg`,
+        imagem: `/image/tailandia/tailand.jpg`,
         value: "R$ 8.000",
         destaque: true,
 
@@ -184,22 +184,22 @@ export const destinos = [
 
         pontosTuristicos: [
             {
-                image:`${basePath}/image/tailandia/chiangMai.jpg`,
+                image:`/image/tailandia/chiangMai.jpg`,
                 name: "Chiang Mai",
             },
 
             {
-                image:`${basePath}/image/tailandia/grandPalace.jpg`,
+                image:`/image/tailandia/grandPalace.jpg`,
                 name: "Grand Palace",
             },
 
             {
-                image:`${basePath}/image/tailandia/phiPhi.jpg`,
+                image:`/image/tailandia/phiPhi.jpg`,
                 name: "Phi Phi Islands",
             },
             
             {
-                image:`${basePath}/image/tailandia/watArun.jpg`,
+                image:`/image/tailandia/watArun.jpg`,
                 name: "Wat Arun",
             },
 
