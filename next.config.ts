@@ -11,7 +11,10 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  experimental: { ppr: false }
+  experimental: { ppr: false },
+  compiler: {
+    removeConsole: isProd ? { exclude: ['error', 'warn'] } : false,
+  }
 };
 
 export default nextConfig;
