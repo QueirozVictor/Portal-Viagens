@@ -48,7 +48,9 @@ export default async function Destino ({ params } : Parametros ) {
                         <div className={styles.turistic_card}>
                             
                             {destino.pontosTuristicos.map(ponto => (
-                                    <div className={styles.turistic_card_layout}>
+                                    <div
+                                    key={ponto.image} 
+                                    className={styles.turistic_card_layout}>
                                         <img 
                                         className={styles.turistic_image}
                                         src={ponto.image} alt="Imagem não encontrada" />
