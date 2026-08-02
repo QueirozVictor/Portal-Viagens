@@ -11,7 +11,7 @@ type Catalogo = {
 const Grid = ({viagens} : Catalogo) => {
     return(
         <section className={styles.grid}>
-        {viagens.map(viagem => <Link key={viagem.id} href={`/destinos/${viagem.slug}`}><Card  viagens={viagem}/> </Link> )}
+        {viagens.map(viagem => <Link key={viagem.id} href={`/destinos/${viagem.slug}`} prefetch={false}><Card  viagens={viagem}/> </Link> )}
         </section>
 
     )

@@ -35,6 +35,7 @@ const Home = ({inicio} : Destino) =>{
                         key={viagem.id}
                         href={`/destinos/${viagem.slug}`}
                         className={styles.home_banner}
+                        prefetch={false}
                         >  
                             <img 
                                 className={styles.home_img}

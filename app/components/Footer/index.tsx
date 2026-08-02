@@ -6,6 +6,7 @@ const Footer = () => {
         <footer className={styles.footer}>
              <Link 
                 href="/"
+                prefetch={false}
                 >
                     <img 
                     className={styles.footer_logo}

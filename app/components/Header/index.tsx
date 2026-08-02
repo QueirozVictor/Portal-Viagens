@@ -7,6 +7,7 @@ const Header = () =>{
             <div className={styles.header_container}>
                 <Link 
                 href="/"
+                prefetch={false}
                 >
                     <img
                     className={styles.header_logo}
