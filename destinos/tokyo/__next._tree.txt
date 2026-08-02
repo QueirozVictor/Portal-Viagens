@@ -1,0 +1,9 @@
+:HL["/Portal-Viagens/_next/static/chunks/1_utpd_c2ahaf.css","style"]
+:HL["/Portal-Viagens/_next/static/chunks/2l69yg7zeuthc.css","style"]
+:HL["/Portal-Viagens/image/logo.png","image"]
+:HL["/Portal-Viagens/image/tokyo/tokyoLogo.jpg","image"]
+:HL["/Portal-Viagens/image/tokyo/tokyoTower.jpg","image"]
+:HL["/Portal-Viagens/image/tokyo/shibuya.jpg","image"]
+:HL["/Portal-Viagens/image/tokyo/sensoJi.jpg","image"]
+:HL["/Portal-Viagens/image/tokyo/meijiShrine.jpg","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"destinos","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"tokyo","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"D--_CXIbT-9uYZZNWPsVu"}

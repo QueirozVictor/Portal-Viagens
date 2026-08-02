@@ -1,0 +1,9 @@
+:HL["/Portal-Viagens/_next/static/chunks/1_utpd_c2ahaf.css","style"]
+:HL["/Portal-Viagens/_next/static/chunks/2l69yg7zeuthc.css","style"]
+:HL["/Portal-Viagens/image/logo.png","image"]
+:HL["/Portal-Viagens/image/paris/parisLogo.jpg","image"]
+:HL["/Portal-Viagens/image/paris/arcDeTriomphe.jpg","image"]
+:HL["/Portal-Viagens/image/paris/louvreMuseum.jpg","image"]
+:HL["/Portal-Viagens/image/paris/eiffelTower.jpg","image"]
+:HL["/Portal-Viagens/image/paris/notreDame.jpg","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"destinos","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"paris","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"D--_CXIbT-9uYZZNWPsVu"}
