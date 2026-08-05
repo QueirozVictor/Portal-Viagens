@@ -1,4 +1,4 @@
-const basePath = "/Portal-Viagens";
+const basePath = process.env.NODE_ENV === "production" ? "/Portal-Viagens" : "";;
 
 export const destinos = [
     {

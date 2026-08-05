@@ -1,6 +1,8 @@
 import Link from "next/link";
 import styles from "./Header.module.css"
 
+const logo = process.env.NODE_ENV === "production" ? "/Portal-Viagens" : "";;
+
 const Header = () =>{
     return(
         <header className={styles.header}>
@@ -11,7 +13,7 @@ const Header = () =>{
                 >
                     <img
                     className={styles.header_logo}
-                    src="/Portal-Viagens/image/logo.png" 
+                    src={`${logo}/image/logo.png`}
                     alt="Logo"/>
                 </Link>
             </div>

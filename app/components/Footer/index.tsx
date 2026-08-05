@@ -1,6 +1,8 @@
 import styles from './Footer.module.css'
 import Link from 'next/link'
 
+const logo = process.env.NODE_ENV === "production" ? "/Portal-Viagens" : "";;
+
 const Footer = () => {
     return(
         <footer className={styles.footer}>
@@ -10,7 +12,7 @@ const Footer = () => {
                 >
                     <img 
                     className={styles.footer_logo}
-                    src="/Portal-Viagens/image/logo.png" 
+                    src={`${logo}/image/logo.png`} 
                     alt="Logo"/>
                 </Link>
             <p className={styles.footer_description}> - Todos os direitos reservados.</p>
