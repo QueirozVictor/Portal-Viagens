@@ -1,9 +1,9 @@
 :HL["/Portal-Viagens/_next/static/chunks/1_utpd_c2ahaf.css","style"]
-:HL["/Portal-Viagens/_next/static/chunks/2l69yg7zeuthc.css","style"]
+:HL["/Portal-Viagens/_next/static/chunks/0w7d7gs4u590_.css","style"]
 :HL["/Portal-Viagens/image/logo.png","image"]
 :HL["/Portal-Viagens/image/tailandia/tailand.jpg","image"]
 :HL["/Portal-Viagens/image/tailandia/chiangMai.jpg","image"]
 :HL["/Portal-Viagens/image/tailandia/grandPalace.jpg","image"]
 :HL["/Portal-Viagens/image/tailandia/phiPhi.jpg","image"]
 :HL["/Portal-Viagens/image/tailandia/watArun.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"destinos","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"tailandia","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"eowWjf7HzkzhY_CKDPTKv"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"destinos","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"tailandia","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"d3ffHlB1tmmsVfNnrFgjQ"}
