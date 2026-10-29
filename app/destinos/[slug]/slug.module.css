@@ -1,119 +1,17 @@
-@media(min-width: 900px){
-    .response{
-        display: flex;
-    }
-}
-
-.img{
-    width: 100%;
-}
-@media (min-width: 900px){
-    .img{
-        width: 30vw;
-    }
-}
-
-.layout{
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    margin: 2px;
-    border: 1px solid rgb(2, 19, 168);
-    border-radius: 8px;
-}
-
-.layout__title{
-    border: 1px solid rgb(2, 19, 168);
-    border-radius: 8px;
-    padding: 5px;
-    font-family: Georgia;
-    font-weight: 600;
-    font-size: clamp(1.2rem,2vw,1.8rem);
-    color: #1f1f1f;
-    text-align: center;
-}
-
-.layout__history{
-    background-color: white;
-    padding: 10px;
-    border: 1px solid rgb(2, 19, 168);
-    border-radius: 8px;
-    margin-top: 10px;
-    font-family: sans-serif;
-    color: #1f1f1f;
-}
-
-.history_title{
-    font-size: clamp(1.2rem,2vw,1.8rem);
-}
-
-.history_description{
-    text-align: justify;
-    padding: 5px;
-    border-radius: 8px;
-    box-shadow: 0px 0px 4px #1f1f1f;
-    padding: 8px;
-    margin-top: 5px;
-}
-
-.layout_turistic_title{
-    font-size: clamp(1.2rem,2vw,1.8rem);
-    margin: 10px;
-}
-
-.turistic_card{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
-    align-items: center;
-    padding: 5px;
-    
-}
-
-.turistic_card_layout{
-    justify-items: center;
-    border: 1px solid rgb(2, 19, 168);
-    border-radius: 8px;
-    margin: 5px;
-    padding: 5px;
-}
-@media(min-width: 400px){
-    .turistic_card{
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    }
-}
-
-
-.turistic_image{
-    border-radius: 8px;
-}
-
-.turistic_description{
-    box-shadow: 0px 0px 5px rgb(41, 212, 255);
-    color: #1f1f1f;
-    border: 1px solid rgb(2, 19, 168);
-    border-radius: 5px;
-    width: 100%;
-    padding: 5px;
-    margin-top: 5px;
-    font-size: clamp(1rem,2vw,1.5rem);
-    font-weight: 600;
-    text-align: center;
-}
-
-.layout_price{
-    background: linear-gradient(to right, rgb(0, 17, 167),rgb(0, 22, 220), rgb(0, 91, 236));
-    border-radius: 8px 0px;
-    color: white;
-    font-size: clamp(1rem, 2vw, 1.5rem);
-    font-weight: 600;
-    text-align: center;
-    width: 60%;
-    margin: auto;
-    margin-bottom: 10px;
-    padding: 10px;
-}
-@media(min-width: 600px){
-    .layout_price{
-        width: 30%;
-    }
-}
+.response { width: min(100% - 2rem, 1180px); margin: 1.5rem auto 0; overflow: hidden; border: 1px solid #e7edf5; border-radius: 24px; background: white; box-shadow: 0 16px 44px -30px rgba(16, 38, 75, .35); }
+.img { display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover; background: #eaf0f8; }
+.layout { display: flex; flex-direction: column; gap: .8rem; padding: 1.15rem; }
+.layout__title { color: #10264b; font-size: clamp(1.6rem, 3vw, 2.25rem); font-weight: 800; letter-spacing: -.04em; }
+.layout__history { padding: 1rem; border: 1px solid #edf1f6; border-radius: 16px; background: #f8faff; }
+.history_title { color: #314767; font-size: 1rem; font-weight: 700; }
+.history_description { margin-top: .5rem; color: #596982; font-size: .95rem; line-height: 1.8; }
+.layout_turistic_title { width: min(100% - 2rem, 1180px); margin: 2rem auto 1rem; color: #10264b; font-size: clamp(1.3rem, 2vw, 1.7rem); font-weight: 750; letter-spacing: -.03em; }
+.turistic_card { display: grid; width: min(100% - 2rem, 1180px); grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .85rem; margin: 0 auto; }
+.turistic_card_layout { min-width: 0; overflow: hidden; border: 1px solid #e7edf5; border-radius: 16px; background: white; box-shadow: 0 6px 18px -16px rgba(16, 38, 75, .35); transition: transform .22s ease, box-shadow .22s ease; }
+.turistic_card_layout:hover { transform: translateY(-3px); box-shadow: 0 12px 24px -16px rgba(37, 99, 235, .35); }
+.turistic_image { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; background: #eaf0f8; }
+.turistic_description { padding: .75rem .65rem; color: #273a57; font-size: clamp(.8rem, 1.5vw, 1rem); font-weight: 650; text-align: center; }
+.layout_price { width: min(100% - 2rem, 360px); margin: 1.5rem auto 2.5rem; border-radius: 16px; padding: 1rem 1.25rem; color: #fff; background: linear-gradient(135deg, #1d4ed8, #2563eb 55%, #4386f5); box-shadow: 0 12px 28px -16px rgba(37, 99, 235, .65); font-size: 1rem; font-weight: 600; text-align: center; }
+.layout_price span { font-size: 1.25rem; font-weight: 800; }
+@media (min-width: 560px) { .turistic_card { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; } .layout { padding: 1.5rem; } }
+@media (min-width: 900px) { .response { display: grid; grid-template-columns: minmax(300px, .9fr) minmax(0, 1.1fr); align-items: stretch; } .img { height: 100%; min-height: 360px; aspect-ratio: auto; } .layout { justify-content: center; padding: clamp(1.5rem, 3vw, 3rem); } .turistic_card { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1.2rem; } }

@@ -6,7 +6,7 @@ type Viagem = {
 }
 
 const Card = ({viagens} : Viagem) => {
-    const {id, title, imagem, slug} = viagens;
+    const {id, title, imagem,} = viagens;
 
     return(
         <div 

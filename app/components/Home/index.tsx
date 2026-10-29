@@ -40,7 +40,7 @@ const Home = ({inicio} : Destino) =>{
                             <img 
                                 className={styles.home_img}
                                 src={viagem.imagem} 
-                                alt="Imagem do destino"
+                                alt={`Conheça ${viagem.title}`}
                             />
                         </Link>
                     </SwiperSlide>

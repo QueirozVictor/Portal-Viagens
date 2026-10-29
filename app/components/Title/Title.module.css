@@ -1,6 +1,1 @@
-.title{
-    font-size: clamp(1.2rem, 2vw, 1.8rem);
-    font-weight: 700;
-    padding: 10px;
-    color: #3f3f3fde;
-}
+.title { width: min(100% - 2rem, 1180px); margin: 1.5rem auto .25rem; color: #10264b; font-size: clamp(1.45rem, 3vw, 2.25rem); font-weight: 800; letter-spacing: -.045em; }

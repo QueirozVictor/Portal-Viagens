@@ -29,7 +29,7 @@ export default async function Destino ({ params } : Parametros ) {
                 <img
                 className={styles.img}
                 src={destino.imagem}
-                alt="Imagem não encontrada"
+                alt={`Paisagem de ${destino.title}`}
                 />
                 <div className={styles.layout}>
                     <h3 className={styles.layout__title}>
@@ -53,7 +53,7 @@ export default async function Destino ({ params } : Parametros ) {
                                     className={styles.turistic_card_layout}>
                                         <img 
                                         className={styles.turistic_image}
-                                        src={ponto.image} alt="Imagem não encontrada" />
+                                        src={ponto.image} alt={`Paisagem de ${destino.title}`} />
                                         <p
                                         className={styles.turistic_description}
                                         >
