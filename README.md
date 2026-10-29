@@ -29,9 +29,8 @@ A implementação apresenta a página inicial, um catálogo de destinos e págin
 
 ## Imagem do projeto
 
-Adicione uma captura de tela do portal em `public/` e atualize o caminho abaixo:
+[Página inicial do SkyTrip](./public/image/deployImg.webp)
 
-<!-- Exemplo: ![Página inicial do SkyTrip](./public/previa.png) -->
 
 ## Deploy
 
@@ -80,9 +79,3 @@ npm run dev
 ```
 
 Acesse [http://localhost:3000](http://localhost:3000).
-
-Para gerar a exportação estática e publicar no GitHub Pages, use o script configurado no projeto:
-
-```bash
-npm run deploy
-```
